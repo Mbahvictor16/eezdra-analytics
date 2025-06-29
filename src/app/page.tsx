@@ -10,14 +10,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export default function Home() {
   return (
     <>
-      <div className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center h-[300px] lg:h-[450px] mb-20">
+      <div className="w-11/12 mx-auto lg:w-10/12 flex items-center md:justify-center min-h-[300px] lg:min-h-[450px] mb-20">
         <div className="md:text-center lg:w-3/5">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">Tracking Social Media Success with Precision</h1>
           <p className="md:text-2xl text-[#3a3a3a]">
             <small>Unlock powerful insights, track engagement, and grow audience with comprehensive analytics</small>
           </p>
           <div>
-            <Link href="/dashboard" className="block md:w-fit md:mx-auto px-4 py-2 text-white rounded-full bg-[#7B04CE] font-bold">Get Started</Link>
+            <Link href="/dashboard" className="block w-fit md:mx-auto px-4 py-2 text-white rounded-full bg-[#7B04CE] font-bold">Get Started</Link>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
 
 
-      <section className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center h-[300px] lg:h-[450px] mb-20">
+      <section className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center min-h-[300px] lg:min-h-[450px] mb-20">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -103,17 +103,17 @@ export default function Home() {
                 Ready to Transform Your Social Media Strategy?
               </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Join thousands of creators who are growing their audience and increasing engagement with TikTrack.
+                Join thousands of creators who are growing their audience and increasing engagement with Eezdra.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" style={{ backgroundColor: "#FF3B30", color: "white" }} asChild>
+              <Button size="lg" style={{ backgroundColor: "#7B04CE", color: "white" }} asChild>
                 <Link href="/dashboard">Start Free Trial</Link>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-[#1A1A1A]"
+                className="border border-[#1A1A1A] text-[#1A1A1A]"
                 asChild
               >
                 <Link href="/contact">Contact Sales</Link>
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
 
-      <section className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center h-[300px] lg:min-h-[450px] mb-20">
+      <section className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center min-h-[300px] lg:min-h-[450px] mb-20">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
 import React from 'react'
 
 import logo from "../../public/logo.png"
@@ -10,7 +10,7 @@ export default function Header() {
             <div>
                 <Image src={logo} width={150} height={100} alt='logo' />
             </div>
-            <nav className='lg:flex gap-16'>
+            {/* <nav className='lg:flex gap-16'>
                 <ul className='lg:flex item-center gap-16'>
                     <li className='mb-4 lg:mb-0'><Link href="/" >Home</Link></li>
                     <li className='mb-4 lg:mb-0'><Link href="/overview" >Overview</Link></li>
@@ -20,7 +20,7 @@ export default function Header() {
                 <div>
                     <Link href="/overview" className='px-4 py-2 text-white rounded-full bg-[#7B04CE] font-bold'>Get Started</Link>
                 </div>
-            </nav>
+            </nav> */}
 
             <div className='lg:hidden'></div>
         </header>
