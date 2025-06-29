@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-export default function PrivacyPolicy({ }: Props) {
+export default function PrivacyPolicy() {
     return (
         <div className="container max-w-4xl px-4 md:px-6 mx-auto">
             <div className="space-y-6">
@@ -14,7 +12,7 @@ export default function PrivacyPolicy({ }: Props) {
                 <div className="space-y-4">
                     <h2 className="text-2xl font-bold">1. Introduction</h2>
                     <p>
-                        Eezdra ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we
+                        Eezdra (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we
                         collect, use, disclose, and safeguard your information when you use our social media analytics platform.
                     </p>
                     <p>
@@ -121,14 +119,14 @@ export default function PrivacyPolicy({ }: Props) {
                         <li>Right to data portability</li>
                         <li>Right to withdraw consent</li>
                     </ul>
-                    <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section.</p>
+                    <p>To exercise these rights, please contact us using the information provided in the &quot;Contact Us&quot; section.</p>
                 </div>
 
                 <div className="space-y-4">
                     <h2 className="text-2xl font-bold">7. Changes to This Privacy Policy</h2>
                     <p>
                         We may update this Privacy Policy from time to time. The updated version will be indicated by an updated
-                        "Last Updated" date. We encourage you to review this Privacy Policy frequently to stay informed about how we
+                        &quot;Last Updated&quot; date. We encourage you to review this Privacy Policy frequently to stay informed about how we
                         are protecting your information.
                     </p>
                 </div>

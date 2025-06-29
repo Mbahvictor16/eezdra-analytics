@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className="w-11/12 mx-auto lg:w-10/12 md:flex items-center justify-center h-[300px] lg:h-[450px] mb-20">
         <div className="md:text-center lg:w-3/5">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">Tracking Tiktok Success with Precision</h1>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">Tracking Social Media Success with Precision</h1>
           <p className="md:text-2xl text-[#3a3a3a]">
             <small>Unlock powerful insights, track engagement, and grow audience with comprehensive analytics</small>
           </p>
