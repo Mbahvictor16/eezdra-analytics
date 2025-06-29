@@ -1,7 +1,5 @@
-import FeatureCard from "@/components/FeatureCard";
 import { Footer } from "@/components/Footer";
 
-import Image from "next/image";
 import Link from "next/link";
 // import { FaChartBar } from "react-icons/fa";
 import { BarChart3, Users, TrendingUp, Clock, Zap, Shield } from "lucide-react"
