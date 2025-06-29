@@ -157,7 +157,7 @@ export default function Home() {
                 <AccordionTrigger>How often is the data updated?</AccordionTrigger>
                 <AccordionContent>
                   Our platform updates data in real-time for most metrics. Some advanced analytics may have a slight delay
-                  of up to 24 hours depending on the social media platform's API limitations.
+                  of up to 24 hours depending on the social media platform&apos;s API limitations.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
